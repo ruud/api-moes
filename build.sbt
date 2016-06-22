@@ -16,5 +16,6 @@ libraryDependencies ++= Seq(
 
 resolvers += "scalaz-bintray" at "http://dl.bintray.com/scalaz/releases"
 
+herokuAppName in Compile := "pacific-meadow-60175"
 
 fork in run := true
